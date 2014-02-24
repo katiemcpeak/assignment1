@@ -15,6 +15,7 @@
 .billboard {
     overflow: hidden;
     background-image: url(images/middleearthmap.jpg);
+    background-repeat: repeat-x;
 }
 
 html {     
@@ -59,7 +60,7 @@ h1 {
     margin: 1.5rem 0;
     font-size: 5rem;
     line-height: 5rem;
-    text-shadow: 5px 5px #000;
+    text-shadow: 6px 6px #000;
 }
 
 h1 + p {
@@ -86,6 +87,13 @@ p {
 figure {
     margin: 0 auto 1.5rem;
     width: 100%;  
+}
+
+.logotwo {
+    height: 4.5rem;
+    width: auto;
+    margin: .5rem 5%;
+    float: right;
 }
 
 figcaption { 
@@ -116,11 +124,4 @@ h2 {
 
 ol {
     color: gold;
-}
-
-.logotwo {
-    height: 4.5rem;
-    width: auto;
-    margin: .5rem 5%;
-    float: right;
 }
