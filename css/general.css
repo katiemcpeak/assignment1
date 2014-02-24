@@ -117,3 +117,10 @@ h2 {
 ol {
     color: gold;
 }
+
+.logotwo {
+    height: 4.5rem;
+    width: auto;
+    margin: .5rem 5%;
+    float: right;
+}
